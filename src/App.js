@@ -5,9 +5,9 @@ class App extends Component {
   render() {
     return (
       <div >
-       <Link to="/">Index</Link>
-        <Link to="/secondPage">Second Page</Link>   
-        {this.props.children}       
+       <Link to="/">Index</Link><br />
+        <Link to="/secondPage">Second Page</Link> 
+        {this.props.children}         
       </div>
     );
   }
