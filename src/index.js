@@ -10,11 +10,10 @@ import registerServiceWorker from './registerServiceWorker';
 
 
 
-ReactDOM.render(
-   <Router>
-     <App>{routes}</App>
-   </Router>
- , document.getElementById('root'));
-//registerServiceWorker();
+// ReactDOM.render(
+//    <Router>
+//      <App>{routes}</App>
+//    </Router>
+//  , document.getElementById('root'));
 ReactDOM.render(<MyForm/>, document.getElementById('root'));
 
